@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <script src="https://kit.fontawesome.com/82fd48db9d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+        </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+        </style>
+</head>
+<body>
+    <div class="gameTable">
+        <h1></h1>
+        <div class="comProfile"><img src="Robot.png"></div>
+        <div class="gameStatus"><h2 id="status">Ready?</h2>
+        <button onclick="retry()" id="retry">Retry?</button>
+        </div>
+        <div class="optionBar">
+        <button onclick="chooseRock()" id="rock"><div class="option"><i class="fa-solid fa-hand-back-fist"> Rock</i></div></button>
+        <button onclick="choosePaper()" id="paper"><div class="option"><i class="fa-solid fa-hand"> Paper</i></div></button>
+        <button onclick="chooseScissor()" id="scissor"><div class="option"><i class="fa-solid fa-hand-scissors"> Scissor</i></div></button>
+        
+    </div>
+        <div class="userProfile"><img src="You.png"></div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

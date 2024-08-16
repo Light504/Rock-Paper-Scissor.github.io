@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+    color: #514d4d;
+    font-family: matemasie;
+}
+
+.gameTable{
+    display: grid;
+    height: fit-content;
+    width: 100svw;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 0.75fr);
+    grid-row-gap: 5px;
+    background-color: #D0B8A8;
+}
+
+.comProfile, .userProfile{
+    
+    height: 150px;
+    width: 150px;
+    background-color: bisque;
+    border: solid;
+    justify-content: center;
+    margin: auto;
+    border-radius: 21%;
+}
+
+.gameStatus{
+    text-align: center;
+    font-size: 2em;
+    font-weight: boldest;
+    font-family: nunito, matemasie;
+    color: #000000;
+    
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+}
+
+#retry{
+    text-align: center;
+    padding: 8px;
+    box-shadow: 3px 6px 3px 1px gray;
+    margin: auto;
+    border: solid;
+    border-radius: 5px;
+    height: 25%;
+    width: 25%;
+    font-size: 70%;
+    background-color: #c48f6c;
+    cursor: pointer;
+    font-family: nunito;
+    font-weight: bolder;
+    color: rgb(59, 47, 47);
+    transition: all 0.25s ease-in-out;
+    
+}
+
+#retry:hover{
+    transform: scale(1.25);
+    font-size: 80%;
+    box-shadow: 5px 8px 3px 3px rgb(11, 11, 11);
+    background-color: #eeb791;
+    color: #363432;
+}
+
+.optionBar{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+}
+
+button{
+    text-align: center;
+    font-size: 20px;
+    background-color: #D0B8A8;
+    border: none;
+    cursor: pointer;
+}
+
+.option{
+    margin: auto;
+    padding: 10px;
+    height: 30%;
+    width: 75%;
+    text-align: center;
+    border: solid;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #DFD3C3;
+    cursor: pointer;
+    box-shadow: 3px 6px 3px 1px gray;
+    transition: all 0.25s ease-in-out;
+}
+
+.option:hover{
+    background-color: #F8EDE3;
+    transform: scale(1.25);
+    border-color: black;
+    color:#000000;
+    box-shadow: 5px 8px 3px 3px rgb(11, 11, 11);
+}
+
+
